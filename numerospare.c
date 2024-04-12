@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    
+    int total;
     int numbers[5];
     numbers[0]=2;
     numbers[1]=44;
@@ -16,7 +16,10 @@ int main(int argc, char const *argv[])
     printf("\nElemento #1: %d",numbers[3]);
     printf("\nElemento #1: %d",numbers[4]);
 
+//total=(numbers[0],numbers[1]);
 
+//printf("Dos numeros   %d ",numbers[0]);
+//printf("Dos numeros   %d ",numbers[1]);
 
     return 0;
 }
